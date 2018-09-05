@@ -1,0 +1,82 @@
+App Contain All Module 
+Module Contain Components 
+Components Contain All metadata and templets 
+Templets Bind all data 
+property binding and Interpolation
+attribute buinding vs Dom element 
+ 
+
+Module 
+Component Nested component
+Template 
+Metadata
+dataBinding -- main aim
+Services    curetain function use compont use repatetily so we crete service
+Directives   ngFor ngIf custom also cn create
+Dependency Injection
+Routers
+
+
+
+1. Minification 
+2. Uglification
+3. Tree Shaking 
+4. Aot (Ahead Of Time Compiling0
+5. Jit vs AOT
+node -v
+npm -v
+ng code .
+ng serve --open || ng s -o
+------------------------------------------------
+ng Generate Componenet ComponentName
+ng g c 
+------------------------------------------------
+ng g c NewComponent --spec false 
+------------------------------------------------
+ng g c NewCom! --spec false --flat false
+------------------------------------------------
+ng generate  Service ServiceName
+ng g s ServiceName
+------------------------------------------------
+ng g module ModuleName
+ng g m ModuleName
+------------------------------------------------
+ng generate Directive DirectiveName
+ng g d DirectiveName -m=app.module
+-----------------------------------------------
+ng generate pipe PipeName 
+ng g p PipeName
+---------------------------------------------
+ng generate guard GuardName
+ng g g GuardName
+---------------------------------------------
+ng generate class ClassName
+ng g cl ClassName
+---------------------------------------------
+ng generate Interface InterfaceName
+ng g I InterfaceName
+--------------------------------------------
+ng generate Enum EnumName
+ng g En EnumName
+--------------------------------------------
+
+dry-run
+-----------------------------------------------
+use -d 
+Run with "dry run " no change made 
+
+------------------------------------------------
+LOCAL SERVER
+ng build --dev 
+------------------------------------
+PRODUCTION SERVER
+ng build --prod
+it will create dist folder and comprese all files 
+
+------------------------------------------------
+1. Minification 2. Uglification3. Tree Shaking 
+4. Aot (Ahead Of Time Compiling
+-------------------------------------------------
+5. Jit vs AOT
+
+
